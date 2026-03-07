@@ -1,0 +1,20 @@
+name = "ar-demo-app"        # ← プロジェクト名に変更してください
+compatibility_date = "2025-03-07"
+
+[assets]
+directory = "."
+exclude = [
+  ".git/**",
+  ".DS_Store",
+  "node_modules/**",
+  "wrangler.toml",
+  "worker.js",
+]
+
+
+
+
+
+
+
+
