@@ -1,4 +1,3 @@
-cat > wrangler.toml << 'EOF'
 name = "ar-app"
 compatibility_date = "2025-03-07"
 main = "worker.js"
@@ -8,7 +7,3 @@ directory = "."
 binding = "ASSETS"
 run_worker_first = true
 not_found_handling = "none"
-
-[assets.ignore]
-patterns = [".git/**", ".wrangler/**", ".DS_Store", "node_modules/**"]
-EOF
