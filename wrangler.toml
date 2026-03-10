@@ -5,10 +5,4 @@ main = "worker.js"
 [assets]
 directory = "."
 binding = "ASSETS"
-exclude = [
-  ".git/**",
-  ".DS_Store",
-  "node_modules/**",
-  "worker.js",
-  "wrangler.toml",
-]
+run_worker_first = true
